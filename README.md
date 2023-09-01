@@ -71,7 +71,6 @@ sas_token            = "sas_token"
 | [azurerm_lb_nat_rule.green_ssh_nat](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/lb_nat_rule) | resource |
 | [azurerm_lb_probe.http_probe](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/lb_probe) | resource |
 | [azurerm_lb_rule.http_rule_blue](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/lb_rule) | resource |
-| [azurerm_lb_rule.http_rule_green](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/lb_rule) | resource |
 | [azurerm_network_interface_backend_address_pool_association.blue_slot_lb_association](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/network_interface_backend_address_pool_association) | resource |
 | [azurerm_network_interface_backend_address_pool_association.green_slot_lb_association](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/network_interface_backend_address_pool_association) | resource |
 | [azurerm_network_interface_nat_rule_association.blue_ssh_association](https://registry.terraform.io/providers/hashicorp/azurerm/3.71.0/docs/resources/network_interface_nat_rule_association) | resource |
