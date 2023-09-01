@@ -1,8 +1,3 @@
-variable "prefix" {
-  type        = string
-  description = "Resources name prefix"
-}
-
 variable "resource_group_name" {
   type        = string
   description = "Resource group name"
@@ -21,6 +16,11 @@ variable "vnet_name" {
 variable "subnet_name" {
   type        = string
   description = "Name of the subnet"
+}
+
+variable "subnet_id" {
+  type        = string
+  description = "ID of the subnet"
 }
 
 variable "network_interface_name" {
